@@ -5,6 +5,8 @@
 
 The <strong>cljc-cipher</strong> is a simple Clojure/ClojureScript cipher encryption library.
 
+[https://en.wikipedia.org/wiki/Cipher](https://en.wikipedia.org/wiki/Cipher)
+
 ### deps.edn
 
 ```
