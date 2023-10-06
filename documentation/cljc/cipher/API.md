@@ -47,11 +47,11 @@ https://en.wikipedia.org/wiki/Cipher
         key-codes  (vec (map int key))
         n-codes    (vec (map int n))]
        (letfn [(f [result n-cursor n-code]
-                  (let [key-cursor   (- n-cursor (* key-length (quot n-cursor key-length)))
-                        key-code     (nth key-codes key-cursor)
-                        shifted-code (- n-code key-code)
-                        shifted-code (if (< shifted-code 0) (+ 128 shifted-code) shifted-code)]
-                       (str result (char shifted-code))))]
+                  (let [key-cursor       (- n-cursor (* key-length (quot n-cursor key-length)))
+                        key-code         (nth key-codes key-cursor)
+                        shifted-key-code (- n-code key-code)
+                        output-key-code  (utils/normalize-key-code shifted-key-code)]
+                       (str result (char output-key-code))))]
               (reduce-kv f "" n-codes))))
 ```
 
@@ -109,11 +109,11 @@ https://en.wikipedia.org/wiki/Cipher
         key-codes  (vec (map int key))
         n-codes    (vec (map int n))]
        (letfn [(f [result n-cursor n-code]
-                  (let [key-cursor   (- n-cursor (* key-length (quot n-cursor key-length)))
-                        key-code     (nth key-codes key-cursor)
-                        shifted-code (+ n-code key-code)
-                        shifted-code (if (> shifted-code 127) (- shifted-code 128) shifted-code)]
-                       (str result (char shifted-code))))]
+                  (let [key-cursor       (- n-cursor (* key-length (quot n-cursor key-length)))
+                        key-code         (nth key-codes key-cursor)
+                        shifted-key-code (+ n-code key-code)
+                        output-key-code  (utils/normalize-key-code shifted-key-code)]
+                       (str result (char output-key-code))))]
               (reduce-kv f "" n-codes))))
 ```
 
