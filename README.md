@@ -41,8 +41,8 @@ function encrypts the given text using the given passkey.
 
 ```
 (encrypt! "My text" "My passkey")
-=>
-"r@dFkg"
+; =>
+; "r@dFkg"
 ```
 
 ### How to decrypt a text?
@@ -52,6 +52,6 @@ function encrypts the given text using the given passkey.
 
 ```
 (decrypt! "r@dFkg" "My passkey")
-=>
-"My text"
+; =>
+; "My text"
 ```
