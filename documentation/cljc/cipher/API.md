@@ -1,5 +1,9 @@
 
-# cipher.api isomorphic namespace
+### cipher.api
+
+Functional documentation of the cipher.api isomorphic namespace
+
+---
 
 ##### [README](../../../README.md) > [DOCUMENTATION](../../COVER.md) > cipher.api
 
@@ -8,6 +12,8 @@
 - [decrypt](#decrypt)
 
 - [encrypt](#encrypt)
+
+---
 
 ### decrypt
 
@@ -133,5 +139,5 @@ https://en.wikipedia.org/wiki/Cipher
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 

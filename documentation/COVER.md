@@ -1,7 +1,11 @@
 
-# cljc-cipher documentation
+### cljc-cipher
 
-Documentation of the [cljc-cipher](https://github.com/bithandshake/cljc-cipher) Clojure / ClojureScript library
+Functional documentation of the [cljc-cipher](https://github.com/bithandshake/cljc-cipher) Clojure / ClojureScript library
+
+---
+
+
 
 ##### [README](../README.md) > DOCUMENTATION
 
@@ -11,5 +15,5 @@ Documentation of the [cljc-cipher](https://github.com/bithandshake/cljc-cipher) 
 
 ---
 
-This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.
+<sub>This documentation is generated with the [clj-docs-generator](https://github.com/bithandshake/clj-docs-generator) engine.</sub>
 

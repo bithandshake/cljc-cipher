@@ -21,5 +21,5 @@
   ; 24 - 102 = -78            (out of range after shifting)
   ;            -78 + 128 = 50 (adding 128 normalizes the output)
   (cond (> key-code 127) (- key-code 128)
-        (< key-code 0)   (+ key-code 128)
+        (< key-code   0) (+ key-code 128)
         :return key-code))
