@@ -11,7 +11,7 @@ The <strong>cljc-cipher</strong> is a simple Clojure/ClojureScript cipher encryp
 
 ```
 {:deps {bithandshake/cljc-cipher {:git/url "https://github.com/bithandshake/cljc-cipher"
-                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}
+                                  :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
