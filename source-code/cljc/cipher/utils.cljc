@@ -13,7 +13,7 @@
   [key-code]
   ; The ASCII (7bit) character table contains 128 characters. Therefore, if a
   ; shifted character key code does not fall within the normal range (0 - 127)
-  ; after the shifting, subtracting or adding 128 from / to it puts it back to
+  ; after the shifting, subtracting / adding 128 from / to it puts it back to
   ; its normal range.
   ;
   ; 112 + 28 = 140            (out of range after shifting)

@@ -10,12 +10,9 @@
   ; @param (*) key
   ;
   ; @description
-  ; https://en.wikipedia.org/wiki/Cipher
+  ; [https://en.wikipedia.org/wiki/Cipher](https://en.wikipedia.org/wiki/Cipher)
   ;
   ; @usage
-  ; (encrypt "Hello world!" "password")
-  ;
-  ; @example
   ; (encrypt "Hello world!" "password")
   ; =>
   ; "¸ÆßßæéÓâÍ×"
@@ -38,12 +35,9 @@
   ; @param (*) key
   ;
   ; @description
-  ; https://en.wikipedia.org/wiki/Cipher
+  ; [https://en.wikipedia.org/wiki/Cipher](https://en.wikipedia.org/wiki/Cipher)
   ;
   ; @usage
-  ; (decrypt "¸ÆßßæéÓâÍ×" "password")
-  ;
-  ; @example
   ; (decrypt "¸ÆßßæéÓâÍ×" "password")
   ; =>
   ; "Hello world!"
