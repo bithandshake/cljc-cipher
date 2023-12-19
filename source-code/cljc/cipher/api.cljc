@@ -7,7 +7,7 @@
 
 ; @tutorial How to encrypt a text?
 ;
-; The [cipher.api/encrypt!](#encrypt) function encrypts the given text with the given passkey.
+; The [cipher.api/encrypt!](#encrypt) function encrypts the given text using the given passkey.
 ;
 ; @code
 ; (encrypt! "My text" "My passkey")
@@ -16,7 +16,7 @@
 
 ; @tutorial How to decrypt a text?
 ;
-; The [cipher.api/encrypt!](#encrypt) function encrypts the given text using the given passkey.
+; The [cipher.api/decrypt!](#decrypt) function decrypts the given text using the given passkey.
 ;
 ; @code
 ; (decrypt! "r@dFkg" "My passkey")
