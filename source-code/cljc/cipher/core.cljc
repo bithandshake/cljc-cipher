@@ -6,11 +6,11 @@
 ;; ----------------------------------------------------------------------------
 
 (defn encrypt
-  ; @param (*) n
-  ; @param (*) key
-  ;
   ; @description
   ; [https://en.wikipedia.org/wiki/Cipher](https://en.wikipedia.org/wiki/Cipher)
+  ;
+  ; @param (*) n
+  ; @param (*) key
   ;
   ; @usage
   ; (encrypt "Hello world!" "password")
@@ -31,11 +31,11 @@
               (reduce-kv f0 "" n-codes))))
 
 (defn decrypt
-  ; @param (*) n
-  ; @param (*) key
-  ;
   ; @description
   ; [https://en.wikipedia.org/wiki/Cipher](https://en.wikipedia.org/wiki/Cipher)
+  ;
+  ; @param (*) n
+  ; @param (*) key
   ;
   ; @usage
   ; (decrypt "¸ÆßßæéÓâÍ×" "password")

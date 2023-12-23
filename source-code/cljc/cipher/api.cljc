@@ -5,18 +5,18 @@
 ;; ----------------------------------------------------------------------------
 ;; ----------------------------------------------------------------------------
 
-; @tutorial How to encrypt a text?
+; @tutorial How to encrypt a string?
 ;
-; The [cipher.api/encrypt!](#encrypt) function encrypts the given text using the given passkey.
+; The [cipher.api/encrypt!](#encrypt) function encrypts the given string using the given passkey.
 ;
 ; @code
 ; (encrypt! "My text" "My passkey")
 ; =>
 ; "r@dFkg"
 
-; @tutorial How to decrypt a text?
+; @tutorial How to decrypt a string?
 ;
-; The [cipher.api/decrypt!](#decrypt) function decrypts the given text using the given passkey.
+; The [cipher.api/decrypt!](#decrypt) function decrypts the given string using the given passkey.
 ;
 ; @code
 ; (decrypt! "r@dFkg" "My passkey")
