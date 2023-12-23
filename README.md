@@ -3,7 +3,7 @@
 
 ### Overview
 
-The <strong>cljc-cipher</strong> is a simple Clojure/ClojureScript cipher encryption library.
+The <strong>cljc-cipher</strong> is a simple cipher encryption library for Clojure projects.
 
 [https://en.wikipedia.org/wiki/Cipher](https://en.wikipedia.org/wiki/Cipher)
 
