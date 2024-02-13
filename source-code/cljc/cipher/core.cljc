@@ -6,7 +6,7 @@
 ;; ----------------------------------------------------------------------------
 
 (defn encrypt
-  ; @description
+  ; @links
   ; [https://en.wikipedia.org/wiki/Cipher](https://en.wikipedia.org/wiki/Cipher)
   ;
   ; @param (*) n
@@ -31,7 +31,7 @@
               (reduce-kv f0 "" n-codes))))
 
 (defn decrypt
-  ; @description
+  ; @links
   ; [https://en.wikipedia.org/wiki/Cipher](https://en.wikipedia.org/wiki/Cipher)
   ;
   ; @param (*) n

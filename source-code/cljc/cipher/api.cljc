@@ -7,20 +7,21 @@
 
 ; @tutorial How to encrypt a string?
 ;
-; The [cipher.api/encrypt!](#encrypt) function encrypts the given string using the given passkey.
+; The [encrypt!](#encrypt) function encrypts the given string using the given passkey.
 ;
-; @code
+; @usage
 ; (encrypt! "My text" "My passkey")
 ; =>
 ; "r@dFkg"
 
-
+;; ----------------------------------------------------------------------------
+;; ----------------------------------------------------------------------------
 
 ; @tutorial How to decrypt a string?
 ;
 ; The [cipher.api/decrypt!](#decrypt) function decrypts the given string using the given passkey.
 ;
-; @code
+; @usage
 ; (decrypt! "r@dFkg" "My passkey")
 ; =>
 ; "My text"
