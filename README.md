@@ -10,13 +10,13 @@ The <strong>cljc-cipher</strong> is a simple cipher encryption library for Cloju
 ### deps.edn
 
 ```
-{:deps {bithandshake/cljc-cipher {:git/url "https://github.com/bithandshake/cljc-cipher"
+{:deps {mt-utilities/cljc-cipher {:git/url "https://github.com/mt-utilities/cljc-cipher"
                                   :sha     "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}}}
 ```
 
 ### Current version
 
-Check out the latest commit on the [release branch](https://github.com/bithandshake/cljc-cipher/tree/release).
+Check out the latest commit on the [release branch](https://github.com/mt-utilities/cljc-cipher/tree/release).
 
 ### Changelog
 
@@ -24,4 +24,4 @@ You can track the changes of the <strong>cljc-cipher</strong> library [here](CHA
 
 # Documentation
 
-The <strong>cljc-cipher</strong> functional documentation is [available here](https://bithandshake.github.io/cljc-cipher).
+The <strong>cljc-cipher</strong> functional documentation is [available here](https://mt-utilities.github.io/cljc-cipher).
